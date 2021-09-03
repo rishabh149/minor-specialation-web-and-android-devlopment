@@ -1,0 +1,36 @@
+body {
+		background-image: url('3.jpg');
+		background-repeat: no-repeat;
+		background-size: 1500px 1500px;
+}
+h1 {color: red}
+h1:hover
+{
+ color : grey;
+ 
+    background-color: transparent;
+
+}	
+#p01 {
+    color: blue;
+	font-size160%;
+text-align:center;
+
+}
+P
+{
+color:yellow;
+
+}
+td{
+	border: solid 1px;
+	border-color:powderblue;
+	border-collapse:collapse;
+}
+tr{
+	border-collapse:collapse;
+	margin:0px;
+}
+table.c{	border-collapse:collapse;
+        width: 400;
+		height:300;}
