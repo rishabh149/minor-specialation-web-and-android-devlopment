@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<style>
+p {color:blue;
+}
+</style>
+<title>cal</title>
+</head>
+<body>
+<p style="text-align:center" >calculator</p>
+<input type="text" id="n1" name="num1" value="2"><br>
+<input type="text" id="n2" name="num2" value="12"><br>
+<input type="text" id="s" name="symbol" value="+"><br>
+<button name="=" onclick="cal()">=</button><br>
+<input type="text" id="r" name="result"><br>
+<script>
+function cal()
+{
+var a=document.getElementById("s").value;
+var x=parseInt(document.getElementById("n1").value);
+var y=parseInt(document.getElementById("n2").value);
+var sum ;
+if(a=="+")
+{
+sum=x+y;
+}
+else if(a=="/")
+{
+sum=x/y;
+}
+else if(a=="-")
+{
+sum=x-y;
+}
+else{
+sum=x*y;
+}
+document.getElementById("r").value=sum;
+}
+</script>
+</body>
+</html>
+
